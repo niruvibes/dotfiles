@@ -1,2 +1,2 @@
-chmod +x setup.sh \\
+chmod +x setup.sh <br>
 ./setup.sh
