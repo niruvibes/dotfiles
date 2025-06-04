@@ -6,6 +6,7 @@ sudo add-apt-repository -y ppa:zhangsongcui3371/fastfetch
 # update list and install packages
 sudo apt update
 sudo apt install -y fastfetch
+sudo apt install -y tree tldr btop
 
 # backing up dotfiles
 if [ -f ~/.bashrc ]; then
