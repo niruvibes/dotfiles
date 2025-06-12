@@ -7,7 +7,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 # update list and install packages
 sudo apt update
 sudo apt install -y fastfetch
-sudo apt install -y tree tldr btop
+sudo apt install -y tree tldr btop git
 
 # nvm 
 export NVM_DIR="$HOME/.nvm"
@@ -31,6 +31,9 @@ fi
 
 # symlinking dotfiles
 ln -sf ~/dotfiles/bashrc ~/.bashrc
+
+# git settings
+git config --global --add --bool push.autoSetupRemote true
 
 # done
 echo "Done!"
